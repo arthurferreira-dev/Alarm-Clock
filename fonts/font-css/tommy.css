@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Tommy Regular';
+    src: url('../made_tommy/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf') format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Tommy Light';
+    src: url('../made_tommy/MADE\ TOMMY\ Light_PERSONAL\ USE.otf') format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Tommy Bold';
+    src: url('../made_tommy/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf') format(opentype);
+    font-style: normal;
+    font-weight: bold;
+}
+
+:root {
+    --tommy-default: 'Tommy Regular', Helvetica, 'Gill Sans', 'Trebuchet MS',  sans-serif;
+    --tommy-fino: 'Tommy Light', 'Tommy Regular', 'Gill Sans', sans-serif;
+    --tommy-grosso: 'Tommy Bold', 'Tommy Regular', 'Trebuchet MS', sans-serif;
+}

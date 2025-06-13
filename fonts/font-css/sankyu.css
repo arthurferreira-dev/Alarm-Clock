@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sankyu';
+    src: url('../sankyu/Sankyu.otf') format(opentype), url('../sankyu/Sankyu.ttf') format(truetype);
+}
+
+:root {
+    --sankyu: 'Sankyu', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

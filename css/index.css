@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('../fonts/font-css/tommy.css'); /*Font: Made_Tommy*/
+@import url('../fonts/font-css/sankyu.css'); /*Font: Sankyu*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--tommy-default);
+}
+
+header {
+    background-image: url('../imgs/time-banner.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+main {
+    background-color: #d3d3d3;
+    width: 100%;
+    padding: 6.5px;
+}
+
+main > p {
+    width: 65%;
+    margin: auto;
+}
+
+header > div#mark {
+    padding: 6px;
+    padding-top: 12px;
+    width: 95%;
+    margin: auto;
+}
+
+header > div#mark > h1 {
+    font-size: 2.3em;
+}
+
+header > div#mark > p {
+    font-size: 1.2em;
+}
+
+header > div#promotion {
+    width: 95%;
+    margin: auto;
+    font-family: var(--tommy-fino);
+}
+
+header > div#promotion > h2 {
+    margin-top: 12px;
+}
+
+em.sub {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 6.5px;
+    padding: 6.5px;
+    text-align: center;
+    transition-duration: .42s;
+}
+
+button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+button#buy-btn {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.str-class {
+    font-family: var(--tommy-grosso);
+}
+
+div#desc-div {
+    padding-top: 12px;
+    width: 96%;
+    margin: auto;
+}
+
+div#card-clocks {
+    margin: auto;
+    width: 28%;
+}
+
+div#card-clocks > p {
+    display: inline;
+}
+
+img.img9 {
+    width: 300px;
+    height: 250px;
+    border-bottom-left-radius: 6.5px;
+    border-bottom-right-radius: 6.5px;
+    margin-bottom: 12px;
+}
+
+.border-title {
+    background-color: #fff;
+    width: 300px;
+    padding: 3px;
+    text-align: center;
+    border-top-left-radius: 6.5px;
+    border-top-right-radius: 6.5px;
+}
+
+footer {
+    padding: 7px;
+    background-color: #000;
+    color: #fff;
+    font-family: var(--sankyu);
+}
+
+a.link-footer {
+    color: #fff;
+    transition-duration: .42s;
+}
+
+a.link-footer:hover {
+    text-decoration: underline;
+}
+
+li.lis {
+    margin-bottom: 6px;
+}
